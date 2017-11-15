@@ -1,0 +1,263 @@
+D:\SVN Project\trunk\Polls\bin\ApplicationInsights.config
+D:\SVN Project\trunk\Polls\bin\roslyn\csc.exe
+D:\SVN Project\trunk\Polls\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\SVN Project\trunk\Polls\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\SVN Project\trunk\Polls\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\SVN Project\trunk\Polls\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\SVN Project\trunk\Polls\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\SVN Project\trunk\Polls\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\SVN Project\trunk\Polls\bin\roslyn\System.Collections.Immutable.dll
+D:\SVN Project\trunk\Polls\bin\roslyn\System.Reflection.Metadata.dll
+D:\SVN Project\trunk\Polls\bin\roslyn\vbc.exe
+D:\SVN Project\trunk\Polls\bin\roslyn\VBCSCompiler.exe
+D:\SVN Project\trunk\Polls\bin\roslyn\VBCSCompiler.exe.config
+D:\SVN Project\trunk\Polls\bin\Polls.dll.config
+D:\SVN Project\trunk\Polls\bin\Polls.dll
+D:\SVN Project\trunk\Polls\bin\Polls.pdb
+D:\SVN Project\trunk\Polls\bin\Antlr3.Runtime.dll
+D:\SVN Project\trunk\Polls\bin\EntityFramework.dll
+D:\SVN Project\trunk\Polls\bin\EntityFramework.SqlServer.dll
+D:\SVN Project\trunk\Polls\bin\Microsoft.AI.Agent.Intercept.dll
+D:\SVN Project\trunk\Polls\bin\Microsoft.AI.DependencyCollector.dll
+D:\SVN Project\trunk\Polls\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\SVN Project\trunk\Polls\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\SVN Project\trunk\Polls\bin\Microsoft.AI.Web.dll
+D:\SVN Project\trunk\Polls\bin\Microsoft.AI.WindowsServer.dll
+D:\SVN Project\trunk\Polls\bin\Microsoft.ApplicationInsights.dll
+D:\SVN Project\trunk\Polls\bin\Microsoft.AspNet.Identity.Core.dll
+D:\SVN Project\trunk\Polls\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\SVN Project\trunk\Polls\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\SVN Project\trunk\Polls\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\SVN Project\trunk\Polls\bin\Microsoft.Owin.dll
+D:\SVN Project\trunk\Polls\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\SVN Project\trunk\Polls\bin\Microsoft.Owin.Security.Cookies.dll
+D:\SVN Project\trunk\Polls\bin\Microsoft.Owin.Security.dll
+D:\SVN Project\trunk\Polls\bin\Microsoft.Owin.Security.Facebook.dll
+D:\SVN Project\trunk\Polls\bin\Microsoft.Owin.Security.Google.dll
+D:\SVN Project\trunk\Polls\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\SVN Project\trunk\Polls\bin\Microsoft.Owin.Security.OAuth.dll
+D:\SVN Project\trunk\Polls\bin\Microsoft.Owin.Security.Twitter.dll
+D:\SVN Project\trunk\Polls\bin\Microsoft.Web.Infrastructure.dll
+D:\SVN Project\trunk\Polls\bin\Newtonsoft.Json.dll
+D:\SVN Project\trunk\Polls\bin\Owin.dll
+D:\SVN Project\trunk\Polls\bin\PagedList.dll
+D:\SVN Project\trunk\Polls\bin\PagedList.Mvc.dll
+D:\SVN Project\trunk\Polls\bin\RestSharp.dll
+D:\SVN Project\trunk\Polls\bin\System.Web.Helpers.dll
+D:\SVN Project\trunk\Polls\bin\System.Web.Mvc.dll
+D:\SVN Project\trunk\Polls\bin\System.Web.Optimization.dll
+D:\SVN Project\trunk\Polls\bin\System.Web.Razor.dll
+D:\SVN Project\trunk\Polls\bin\System.Web.WebPages.Deployment.dll
+D:\SVN Project\trunk\Polls\bin\System.Web.WebPages.dll
+D:\SVN Project\trunk\Polls\bin\System.Web.WebPages.Razor.dll
+D:\SVN Project\trunk\Polls\bin\WebGrease.dll
+D:\SVN Project\trunk\Polls\bin\Microsoft.AI.DependencyCollector.xml
+D:\SVN Project\trunk\Polls\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\SVN Project\trunk\Polls\bin\Microsoft.AI.Web.xml
+D:\SVN Project\trunk\Polls\bin\Microsoft.AI.WindowsServer.xml
+D:\SVN Project\trunk\Polls\bin\Microsoft.ApplicationInsights.xml
+D:\SVN Project\trunk\Polls\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\SVN Project\trunk\Polls\bin\PagedList.xml
+D:\SVN Project\trunk\Polls\bin\PagedList.Mvc.xml
+D:\SVN Project\trunk\Polls\bin\RestSharp.xml
+D:\SVN Project\trunk\Polls\bin\System.Web.Helpers.xml
+D:\SVN Project\trunk\Polls\bin\System.Web.Mvc.xml
+D:\SVN Project\trunk\Polls\bin\System.Web.Optimization.xml
+D:\SVN Project\trunk\Polls\bin\System.Web.Razor.xml
+D:\SVN Project\trunk\Polls\bin\System.Web.WebPages.xml
+D:\SVN Project\trunk\Polls\bin\System.Web.WebPages.Deployment.xml
+D:\SVN Project\trunk\Polls\bin\System.Web.WebPages.Razor.xml
+D:\SVN Project\trunk\Polls\bin\Antlr3.Runtime.pdb
+D:\SVN Project\trunk\Polls\bin\Newtonsoft.Json.xml
+D:\SVN Project\trunk\Polls\bin\EntityFramework.xml
+D:\SVN Project\trunk\Polls\bin\EntityFramework.SqlServer.xml
+D:\SVN Project\trunk\Polls\bin\Microsoft.AspNet.Identity.Core.xml
+D:\SVN Project\trunk\Polls\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\SVN Project\trunk\Polls\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\SVN Project\trunk\Polls\bin\Microsoft.Owin.xml
+D:\SVN Project\trunk\Polls\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\SVN Project\trunk\Polls\bin\Microsoft.Owin.Security.xml
+D:\SVN Project\trunk\Polls\bin\Microsoft.Owin.Security.Facebook.xml
+D:\SVN Project\trunk\Polls\bin\Microsoft.Owin.Security.Cookies.xml
+D:\SVN Project\trunk\Polls\bin\Microsoft.Owin.Security.OAuth.xml
+D:\SVN Project\trunk\Polls\bin\Microsoft.Owin.Security.Google.xml
+D:\SVN Project\trunk\Polls\bin\Microsoft.Owin.Security.Twitter.xml
+D:\SVN Project\trunk\Polls\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\SVN Project\trunk\Polls\obj\Debug\Polls.dll
+D:\SVN Project\trunk\Polls\obj\Debug\Polls.pdb
+D:\test\trunk\Polls\bin\ApplicationInsights.config
+D:\test\trunk\Polls\bin\roslyn\csc.exe
+D:\test\trunk\Polls\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\test\trunk\Polls\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\test\trunk\Polls\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\test\trunk\Polls\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\test\trunk\Polls\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\test\trunk\Polls\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\test\trunk\Polls\bin\roslyn\System.Collections.Immutable.dll
+D:\test\trunk\Polls\bin\roslyn\System.Reflection.Metadata.dll
+D:\test\trunk\Polls\bin\roslyn\vbc.exe
+D:\test\trunk\Polls\bin\roslyn\VBCSCompiler.exe
+D:\test\trunk\Polls\bin\roslyn\VBCSCompiler.exe.config
+D:\test\trunk\Polls\bin\Polls.dll.config
+D:\test\trunk\Polls\bin\Polls.dll
+D:\test\trunk\Polls\bin\Polls.pdb
+D:\test\trunk\Polls\bin\Antlr3.Runtime.dll
+D:\test\trunk\Polls\bin\EntityFramework.dll
+D:\test\trunk\Polls\bin\EntityFramework.SqlServer.dll
+D:\test\trunk\Polls\bin\Microsoft.AI.Agent.Intercept.dll
+D:\test\trunk\Polls\bin\Microsoft.AI.DependencyCollector.dll
+D:\test\trunk\Polls\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\test\trunk\Polls\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\test\trunk\Polls\bin\Microsoft.AI.Web.dll
+D:\test\trunk\Polls\bin\Microsoft.AI.WindowsServer.dll
+D:\test\trunk\Polls\bin\Microsoft.ApplicationInsights.dll
+D:\test\trunk\Polls\bin\Microsoft.AspNet.Identity.Core.dll
+D:\test\trunk\Polls\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\test\trunk\Polls\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\test\trunk\Polls\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\test\trunk\Polls\bin\Microsoft.Owin.dll
+D:\test\trunk\Polls\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\test\trunk\Polls\bin\Microsoft.Owin.Security.Cookies.dll
+D:\test\trunk\Polls\bin\Microsoft.Owin.Security.dll
+D:\test\trunk\Polls\bin\Microsoft.Owin.Security.Facebook.dll
+D:\test\trunk\Polls\bin\Microsoft.Owin.Security.Google.dll
+D:\test\trunk\Polls\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\test\trunk\Polls\bin\Microsoft.Owin.Security.OAuth.dll
+D:\test\trunk\Polls\bin\Microsoft.Owin.Security.Twitter.dll
+D:\test\trunk\Polls\bin\Microsoft.Web.Infrastructure.dll
+D:\test\trunk\Polls\bin\Newtonsoft.Json.dll
+D:\test\trunk\Polls\bin\Owin.dll
+D:\test\trunk\Polls\bin\PagedList.dll
+D:\test\trunk\Polls\bin\PagedList.Mvc.dll
+D:\test\trunk\Polls\bin\RestSharp.dll
+D:\test\trunk\Polls\bin\System.Web.Helpers.dll
+D:\test\trunk\Polls\bin\System.Web.Mvc.dll
+D:\test\trunk\Polls\bin\System.Web.Optimization.dll
+D:\test\trunk\Polls\bin\System.Web.Razor.dll
+D:\test\trunk\Polls\bin\System.Web.WebPages.Deployment.dll
+D:\test\trunk\Polls\bin\System.Web.WebPages.dll
+D:\test\trunk\Polls\bin\System.Web.WebPages.Razor.dll
+D:\test\trunk\Polls\bin\WebGrease.dll
+D:\test\trunk\Polls\bin\Microsoft.AI.DependencyCollector.xml
+D:\test\trunk\Polls\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\test\trunk\Polls\bin\Microsoft.AI.Web.xml
+D:\test\trunk\Polls\bin\Microsoft.AI.WindowsServer.xml
+D:\test\trunk\Polls\bin\Microsoft.ApplicationInsights.xml
+D:\test\trunk\Polls\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\test\trunk\Polls\bin\PagedList.xml
+D:\test\trunk\Polls\bin\PagedList.Mvc.xml
+D:\test\trunk\Polls\bin\RestSharp.xml
+D:\test\trunk\Polls\bin\System.Web.Helpers.xml
+D:\test\trunk\Polls\bin\System.Web.Mvc.xml
+D:\test\trunk\Polls\bin\System.Web.Optimization.xml
+D:\test\trunk\Polls\bin\System.Web.Razor.xml
+D:\test\trunk\Polls\bin\System.Web.WebPages.xml
+D:\test\trunk\Polls\bin\System.Web.WebPages.Deployment.xml
+D:\test\trunk\Polls\bin\System.Web.WebPages.Razor.xml
+D:\test\trunk\Polls\bin\Antlr3.Runtime.pdb
+D:\test\trunk\Polls\bin\Newtonsoft.Json.xml
+D:\test\trunk\Polls\bin\EntityFramework.xml
+D:\test\trunk\Polls\bin\EntityFramework.SqlServer.xml
+D:\test\trunk\Polls\bin\Microsoft.AspNet.Identity.Core.xml
+D:\test\trunk\Polls\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\test\trunk\Polls\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\test\trunk\Polls\bin\Microsoft.Owin.xml
+D:\test\trunk\Polls\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\test\trunk\Polls\bin\Microsoft.Owin.Security.xml
+D:\test\trunk\Polls\bin\Microsoft.Owin.Security.Facebook.xml
+D:\test\trunk\Polls\bin\Microsoft.Owin.Security.Cookies.xml
+D:\test\trunk\Polls\bin\Microsoft.Owin.Security.OAuth.xml
+D:\test\trunk\Polls\bin\Microsoft.Owin.Security.Google.xml
+D:\test\trunk\Polls\bin\Microsoft.Owin.Security.Twitter.xml
+D:\test\trunk\Polls\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\test\trunk\Polls\obj\Debug\Polls.csprojResolveAssemblyReference.cache
+D:\test\trunk\Polls\obj\Debug\Polls.dll
+D:\test\trunk\Polls\obj\Debug\Polls.pdb
+F:\Sandeep.winux\Pools\Polls\bin\ApplicationInsights.config
+F:\Sandeep.winux\Pools\Polls\bin\roslyn\csc.exe
+F:\Sandeep.winux\Pools\Polls\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Sandeep.winux\Pools\Polls\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Sandeep.winux\Pools\Polls\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Sandeep.winux\Pools\Polls\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Sandeep.winux\Pools\Polls\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Sandeep.winux\Pools\Polls\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Sandeep.winux\Pools\Polls\bin\roslyn\System.Collections.Immutable.dll
+F:\Sandeep.winux\Pools\Polls\bin\roslyn\System.Reflection.Metadata.dll
+F:\Sandeep.winux\Pools\Polls\bin\roslyn\vbc.exe
+F:\Sandeep.winux\Pools\Polls\bin\roslyn\VBCSCompiler.exe
+F:\Sandeep.winux\Pools\Polls\bin\roslyn\VBCSCompiler.exe.config
+F:\Sandeep.winux\Pools\Polls\bin\Polls.dll.config
+F:\Sandeep.winux\Pools\Polls\bin\Polls.dll
+F:\Sandeep.winux\Pools\Polls\bin\Polls.pdb
+F:\Sandeep.winux\Pools\Polls\bin\Antlr3.Runtime.dll
+F:\Sandeep.winux\Pools\Polls\bin\EntityFramework.dll
+F:\Sandeep.winux\Pools\Polls\bin\EntityFramework.SqlServer.dll
+F:\Sandeep.winux\Pools\Polls\bin\Microsoft.AI.Agent.Intercept.dll
+F:\Sandeep.winux\Pools\Polls\bin\Microsoft.AI.DependencyCollector.dll
+F:\Sandeep.winux\Pools\Polls\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\Sandeep.winux\Pools\Polls\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\Sandeep.winux\Pools\Polls\bin\Microsoft.AI.Web.dll
+F:\Sandeep.winux\Pools\Polls\bin\Microsoft.AI.WindowsServer.dll
+F:\Sandeep.winux\Pools\Polls\bin\Microsoft.ApplicationInsights.dll
+F:\Sandeep.winux\Pools\Polls\bin\Microsoft.AspNet.Identity.Core.dll
+F:\Sandeep.winux\Pools\Polls\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\Sandeep.winux\Pools\Polls\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\Sandeep.winux\Pools\Polls\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Sandeep.winux\Pools\Polls\bin\Microsoft.Owin.dll
+F:\Sandeep.winux\Pools\Polls\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\Sandeep.winux\Pools\Polls\bin\Microsoft.Owin.Security.Cookies.dll
+F:\Sandeep.winux\Pools\Polls\bin\Microsoft.Owin.Security.dll
+F:\Sandeep.winux\Pools\Polls\bin\Microsoft.Owin.Security.Facebook.dll
+F:\Sandeep.winux\Pools\Polls\bin\Microsoft.Owin.Security.Google.dll
+F:\Sandeep.winux\Pools\Polls\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\Sandeep.winux\Pools\Polls\bin\Microsoft.Owin.Security.OAuth.dll
+F:\Sandeep.winux\Pools\Polls\bin\Microsoft.Owin.Security.Twitter.dll
+F:\Sandeep.winux\Pools\Polls\bin\Microsoft.Web.Infrastructure.dll
+F:\Sandeep.winux\Pools\Polls\bin\Newtonsoft.Json.dll
+F:\Sandeep.winux\Pools\Polls\bin\Owin.dll
+F:\Sandeep.winux\Pools\Polls\bin\PagedList.dll
+F:\Sandeep.winux\Pools\Polls\bin\PagedList.Mvc.dll
+F:\Sandeep.winux\Pools\Polls\bin\RestSharp.dll
+F:\Sandeep.winux\Pools\Polls\bin\System.Web.Helpers.dll
+F:\Sandeep.winux\Pools\Polls\bin\System.Web.Mvc.dll
+F:\Sandeep.winux\Pools\Polls\bin\System.Web.Optimization.dll
+F:\Sandeep.winux\Pools\Polls\bin\System.Web.Razor.dll
+F:\Sandeep.winux\Pools\Polls\bin\System.Web.WebPages.Deployment.dll
+F:\Sandeep.winux\Pools\Polls\bin\System.Web.WebPages.dll
+F:\Sandeep.winux\Pools\Polls\bin\System.Web.WebPages.Razor.dll
+F:\Sandeep.winux\Pools\Polls\bin\WebGrease.dll
+F:\Sandeep.winux\Pools\Polls\bin\Microsoft.AI.DependencyCollector.xml
+F:\Sandeep.winux\Pools\Polls\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\Sandeep.winux\Pools\Polls\bin\Microsoft.AI.Web.xml
+F:\Sandeep.winux\Pools\Polls\bin\Microsoft.AI.WindowsServer.xml
+F:\Sandeep.winux\Pools\Polls\bin\Microsoft.ApplicationInsights.xml
+F:\Sandeep.winux\Pools\Polls\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Sandeep.winux\Pools\Polls\bin\PagedList.xml
+F:\Sandeep.winux\Pools\Polls\bin\PagedList.Mvc.xml
+F:\Sandeep.winux\Pools\Polls\bin\RestSharp.xml
+F:\Sandeep.winux\Pools\Polls\bin\System.Web.Helpers.xml
+F:\Sandeep.winux\Pools\Polls\bin\System.Web.Mvc.xml
+F:\Sandeep.winux\Pools\Polls\bin\System.Web.Optimization.xml
+F:\Sandeep.winux\Pools\Polls\bin\System.Web.Razor.xml
+F:\Sandeep.winux\Pools\Polls\bin\System.Web.WebPages.xml
+F:\Sandeep.winux\Pools\Polls\bin\System.Web.WebPages.Deployment.xml
+F:\Sandeep.winux\Pools\Polls\bin\System.Web.WebPages.Razor.xml
+F:\Sandeep.winux\Pools\Polls\bin\Antlr3.Runtime.pdb
+F:\Sandeep.winux\Pools\Polls\bin\Newtonsoft.Json.xml
+F:\Sandeep.winux\Pools\Polls\bin\EntityFramework.xml
+F:\Sandeep.winux\Pools\Polls\bin\EntityFramework.SqlServer.xml
+F:\Sandeep.winux\Pools\Polls\bin\Microsoft.AspNet.Identity.Core.xml
+F:\Sandeep.winux\Pools\Polls\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\Sandeep.winux\Pools\Polls\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\Sandeep.winux\Pools\Polls\bin\Microsoft.Owin.xml
+F:\Sandeep.winux\Pools\Polls\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\Sandeep.winux\Pools\Polls\bin\Microsoft.Owin.Security.xml
+F:\Sandeep.winux\Pools\Polls\bin\Microsoft.Owin.Security.Facebook.xml
+F:\Sandeep.winux\Pools\Polls\bin\Microsoft.Owin.Security.Cookies.xml
+F:\Sandeep.winux\Pools\Polls\bin\Microsoft.Owin.Security.OAuth.xml
+F:\Sandeep.winux\Pools\Polls\bin\Microsoft.Owin.Security.Google.xml
+F:\Sandeep.winux\Pools\Polls\bin\Microsoft.Owin.Security.Twitter.xml
+F:\Sandeep.winux\Pools\Polls\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\Sandeep.winux\Pools\Polls\obj\Debug\Polls.csprojResolveAssemblyReference.cache
+F:\Sandeep.winux\Pools\Polls\obj\Debug\Polls.dll
+F:\Sandeep.winux\Pools\Polls\obj\Debug\Polls.pdb

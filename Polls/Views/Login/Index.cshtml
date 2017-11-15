@@ -1,0 +1,54 @@
+﻿@model Polls.Models.Login
+@{
+    ViewBag.Title = "Login";
+}
+
+<h2>Login</h2>
+@*<script src="~/scripts/Browser_DeviceDetail.js"></script>*@
+
+@using (@Html.BeginForm("Index", "Login", FormMethod.Post, new { catname = "All" }))
+            {
+                @Html.ValidationSummary();
+
+    <div class="form-group">
+        <label for="email">Username:</label>
+        @Html.TextBoxFor(m => m.userName,new { @class="form-control"})
+    </div>
+    <div class="form-group">
+        <label for="pwd">Password:</label>
+       @Html.PasswordFor(m => m.password, new { @class = "form-control" })
+    </div>
+    <div class="checkbox">
+        <label><input type="checkbox"> Remember me</label>
+    </div>
+    <input type="submit" id="btnSubmit" class="btn btn-default" value="Submit" />
+
+    @*<script>
+        $(document).ready(function () {
+            $('#btnSubmit').click(function () {
+                @ViewBag.browserName=browserName;
+                @ViewBag.browserUserAgent= navigator.userAgent;
+                  @ViewBag.browserVersion = fullVersion;
+                @ViewBag.deviceName = "desktop";
+                @ViewBag.devicePlatform = navigator.platform;
+                  @ViewBag.browserName=browserName;
+                if (@Model != null) {
+                    '@Model.deviceId' = "d4bc2ea4-1868-469b-a6c3-0f518e4f0218";
+                    '@Model.isPartner' = false;
+                    '@Model.newDevice' = new Polls.Models.Newdevice();
+                    '@Model.newDevice.browserName' = browserName;
+                    '@Model.newDevice.browserUserAgent' = navigator.userAgent;
+                    '@Model.newDevice.browserVersion' = fullVersion;
+                    '@Model.newDevice.deviceName' = "desktop";
+                    '@Model.newDevice.devicePlatform' = navigator.platform;
+                    '@Model.newDevice.snsDeviceId' = "d4bc2ea4-1868-469b-a6c3-0f518e4f0218";
+                    '@Model.newDevice.deviceVersion' = fullVersion;
+                }
+            });
+        });
+    </script>*@
+}
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+

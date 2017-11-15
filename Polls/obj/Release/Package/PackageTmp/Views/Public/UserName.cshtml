@@ -1,0 +1,67 @@
+﻿@model PagedList.IPagedList<Polls.Models.MyPolls>
+@using PagedList.Mvc;
+<link href="~/Content/PagedList.css" rel="stylesheet" type="text/css" />
+@{
+	ViewBag.Title = "Polls";
+}
+@Html.Partial("_CommonScript")
+<section id="public-questions" class="container">
+	<div class='card list-group-card'>
+		<div class='card-block'>
+			@if (ViewBag.UserName == null)
+            {
+				<h2 class='card-title'>Polls</h2>
+
+            }
+            else
+            {
+				<h2 class='card-title'>   Polls-Created by:@Convert.ToString(@ViewBag.UserName)</h2>
+
+            }
+
+			<ul class="nav nav-pills nav-outlined nav-centered" style="margin-bottom:10px">
+				@foreach (var item in ViewBag.Categories)
+				{
+					<li class="nav-item borderclass">
+						@Html.ActionLink((string)item.catName, "Index", new { catname = item.catName }, new { @class = "nav-link" })
+					</li>
+				}
+
+			</ul>
+		</div>
+		<ul class='list-group-flush list-group' id="example">
+			@foreach (var item in Model)
+            {
+				<li class='list-group-item'>
+					<div class='pull-right'>
+						<span class="poll-audience" style="">
+							<i class="fa fa-group fa-fw"></i> <span class='label label-default'>@item.responseCompleted Respondents</span>
+							@foreach (var items in item.filtersJson.Split(','))
+							{
+								if (Convert.ToString(items.Split(':')[0]).Replace('"', ' ').Trim().ToLower() == "filtervalue")
+								{
+									<span class="label label-success" style="margin-right: 10px;">@Convert.ToString(items.Split(':')[1]).Replace('"', ' ').Replace('}', ' ').Replace(']', ' ').Trim() </span>
+								}
+							}
+						</span>
+					</div>
+					@*<a href='@Url.Action("GetPollResult", "Public", new { pollId = @item.pollId})'>@item.question ?</a>*@
+					<a onclick="SetPollId('@item.pollId','@item.question.Trim().Replace(" ","-")')" href='javascript:void(0);'>@item.question ?</a>
+					<div class="pull-right" style="padding-right:15px">
+						<i class="fa fa-user" aria-hidden="true"></i>&nbsp; @Html.ActionLink(item.userName, "UserName", new { username = @item.userName }, new { @class = "nav-link" })@*userId = @item.userId,*@
+					</div>
+					<div class="pull-right" style="padding-right:15px">
+						<i class="fa fa-address-card-o" aria-hidden="true"></i>&nbsp;
+						@*@Html.ActionLink("View Profile", "Viewprofile", new { userId = @item.userId }, new { @class = "nav-link" })*@
+						<a onclick="SetProfileId('@item.userId','@item.userName.Trim().Replace(" ","-")')" href='javascript:void(0);' class="nav-link">@item.userName</a>
+					</div>
+				</li>
+            }
+
+		</ul>
+		<br />
+		Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+		@Html.PagedListPager(Model, page => Url.Action("Index",
+    new { page }))
+	</div>
+</section>

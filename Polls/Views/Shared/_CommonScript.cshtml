@@ -1,0 +1,45 @@
+﻿<script type="text/javascript">
+		///Set Questions as Query string which will replace to pollid
+function SetPollId(pollId,question)
+		{
+		///Due to save pollId In Session
+		//Business Rule Requirment
+		//POST CALL <SECURE>
+		$.ajax({
+			type: "POST",
+			url: '@Url.Action("SetPollId", "Public")',
+			data: { pollId: pollId },
+			success: function(data)
+				{
+				if (data.success="true")
+					{
+		var url='@Url.Action("GetPollResult", "Public", new { question = "question" })'
+			window.location =url.replace("question", question);
+					}
+				}
+		});
+
+		}
+
+	///Set User first Name & Last Name as Query string which will replace to profileId
+	function SetProfileId(userId,userName)
+	{
+	///Due to save userId In Session
+	//Business Rule Requirment
+	//POST CALL <SECURE>
+	$.ajax({
+        type: "POST",
+        url: '@Url.Action("SetProfileId", "Public")',
+        data: { userId: userId },
+        success: function(data)
+            {
+            if (data.success="true")
+                {
+	var url='@Url.Action("ViewProfile", "Public", new { userName = "userName" })'
+		window.location =url.replace("userName", userName);
+                }
+            }
+    });
+
+	}
+</script>

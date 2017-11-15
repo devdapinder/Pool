@@ -1,0 +1,266 @@
+﻿@model Polls.Models.PollResultViewModel
+@{
+    ViewBag.Title = "Poll Result";
+}
+<style>
+    .well-small {
+        border-radius: .15rem;
+        border: 1px solid #e5e5e5;
+        display: inline-block;
+        background: white;
+        padding: .16667rem .25rem;
+        margin-bottom: 1rem;
+        margin-right: .5rem;
+        margin-left: 0;
+    }
+
+    .row, .hero-box {
+        margin-left: -.9375rem;
+        margin-right: -.9375rem;
+    }
+
+
+
+    .card-block, .hero-box {
+        padding: 1.25rem;
+    }
+
+    .card, .hero-box {
+        position: relative;
+        display: block;
+        margin-bottom: .75rem;
+        background-color: #fff;
+        border: 1px solid #e5e5e5;
+        border-radius: .15rem;
+    }
+
+    .poll-action-row .poll-actions {
+        text-align: right;
+    }
+
+    #jquery-lightbox {
+        width: 100%;
+        max-width: 110%;
+        transform: translateX(-5%);
+    }
+
+
+    .jquery-lightbox {
+        top: 20px !important;
+        width: 100%;
+    }
+</style>
+
+<section class="normal section-list">
+    <br />
+    <section id="public-display-hero" class="hero">
+        <div class="container">
+            <ul class="breadcrumb"><li><a href="/">Home</a></li><li><a href="#">Poll Result</a></li></ul>		<div class="row">
+            </div>
+        </div>
+    </section>
+    @if (Model.myPolls != null)
+    {
+        <div class="container">
+            <div class="pubdisp">
+                <div class="">
+                    <a name="full_results"></a>
+                    <div class="pr-header row">
+                        <div class="col-sm-4">
+                            <h2>
+                                Full Poll Results
+                            </h2>
+                        </div>
+                        <div class="col-sm-8">
+                            <div class="well well-small pull-right">Published Jul 27, 2017</div>
+                            <div class="well well-small pull-right">Public</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card card-block ">
+                    <div class="question-display">
+                        <h2>
+                            @Model.myPolls.question
+                        </h2>
+                        <div class="input-group">
+                            <table>
+                                <tr>
+                                    <td class="thumbnails" style="padding:20px">
+                                        <ul class="clearfix">
+                                            <li>
+                                                <a href="@Model.myPolls.firstImagePathFull">
+                                                    <img src="@Model.myPolls.firstImagePath" alt="">
+                                                </a>
+                                            </li>
+
+                                        </ul>
+                                    </td>
+
+                                    <td class="thumbnails" style="padding:20px">
+                                        <ul class="clearfix">
+                                            <li>
+                                                <a href="@Model.myPolls.secondImagePathfull">
+                                                    <img src="@Model.myPolls.secondImagePath" alt="">
+                                                </a>
+                                            </li>
+
+                                        </ul>
+                                    </td>
+                                </tr>
+                            </table>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row poll-action-row">
+                    <div class="col-sm-6">
+                        <p>
+                            <span class="poll-audience" style="">
+                                <i class="fa fa-group fa-fw"></i> <span class="label label-default">@Model.myPolls.responseCompleted Respondents</span> @*<span class="label label-default">General Population</span>*@
+                                @foreach (var items in Model.myPolls.filtersJson.Split(','))
+                                {
+                                    if (Convert.ToString(items.Split(':')[0]).Replace('"', ' ').Trim().ToLower() == "filtervalue")
+                                    {
+                                <span class="label label-default" style="margin-right: 10px;">@Convert.ToString(items.Split(':')[1]).Replace('"', ' ').Replace('}', ' ').Replace(']', ' ').Trim() </span>
+                                    }
+                                }
+                            </span>
+                        </p>
+                    </div>
+                    @*<div class="col-sm-6 poll-actions">
+                            <ul class="list-inline list-links">
+                                <li class="list-inline-item" data-ga-trk-hvr="download">
+                                    <a href="http://www.pickfu.com/UV1DUW-which-book-title-is.csv" onclick="ga('send', 'pageview', '/books/book-titles/which-book-title-is-more-appealing-CHKJJ0SY.csv');" rel="noindex nofollow"><i class="fa fa-download"></i> Export (.csv)</a>
+
+                                </li>
+                                <li class="list-inline-item">
+                                    <!-- AddThis Button BEGIN -->
+                                    <a class="addthis_button" href="http://www.addthis.com/bookmark.php?v=300&amp;pubid=pickfu">
+                                        <i class="fa-share fa"></i> Share
+                                    </a>
+                                    <!-- AddThis Button END -->
+                                </li>
+                            </ul>
+                        </div>*@
+                </div>
+
+                <div class="card card-block">
+                    <h3 class="card-title">Responses</h3>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <table class="table table-hover table-bordered table-sm poll-responses" data-ga-trk-hvr="responses-A">
+                                <thead>
+                                    <tr class="answer-row">
+                                        <th colspan="100%">Responses to Option A</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @{int j = 1;}
+                                    @foreach (var item in Model.PollResults)
+                                    {
+                                        if (item.choice == 1)
+                                        {
+                                    <tr class="answer-row">
+                                        <td class="answer_num">
+                                            @j
+                                        </td>
+                                        <td>
+                                            <!-- <div style="font-size:0.8rem; color:#777; text-align:right; float:right;">
+                                                follow-up  upvote  downvote
+                                            </div> -->
+                                            <div class="answer-actions">
+                                            </div>
+                                            <div class="answer-content" data-title="GENDER: @item.gender<br/> AGE: @item.age<br/> EDUCATION: @item.education<br/> ETHNICITY: @item.ethnicity<br/> INCOME: @item.income" data-html="true" rel="tooltip" data-original-title="" title="">
+                                                <div class="answer-explanation" id="1271281-explanation">
+                                                    @item.answerText
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                            j++;
+                                        }
+                                    }
+                                </tbody>
+                            </table>
+                        </div>  <!-- span6 -->
+                        <div class="col-sm-6">
+                            <table class="table table-hover table-bordered table-sm poll-responses" data-ga-trk-hvr="responses-B">
+                                <thead>
+                                    <tr class="answer-row">
+                                        <th colspan="100%">Responses to Option B</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @{int i = 1;}
+                                    @foreach (var item in Model.PollResults)
+                                    {
+
+                                        if (item.choice == 2)
+                                        {
+                                    <tr class="answer-row">
+                                        <td class="answer_num">
+                                            @i
+                                        </td>
+                                        <td>
+                                            <!-- <div style="font-size:0.8rem; color:#777; text-align:right; float:right;">
+                                                follow-up  upvote  downvote
+                                            </div> -->
+                                            <div class="answer-actions">
+                                            </div>
+                                            <div class="answer-content" data-title="GENDER: @item.gender<br/> AGE: @item.age<br/> EDUCATION: @item.education<br/> ETHNICITY: @item.ethnicity<br/> INCOME: @item.income" data-html="true" rel="tooltip" data-original-title="" title="">
+                                                <div class="answer-explanation" id="1271281-explanation">
+                                                    @item.answerText
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                            i++;
+                                        }
+                                    }
+                                </tbody>
+                            </table>
+                        </div>  <!-- span6 -->
+                    </div> <!-- row-fluid -->
+                </div> <!-- container border-box -->
+
+
+            </div>
+        </div>
+     }
+
+    <script>
+        var hlt_rows_active_id = null;
+        function toggle_hlt_rows(ids, src_elt) {
+            // disable hlt_rows_active
+            // console.log(src_elt);
+            $('.' + 'freq-selected').removeClass('freq-selected');
+
+            $(src_elt).parent().addClass('freq-selected');
+            if (hlt_rows_active_id != null) {
+                $('#' + hlt_rows_active_id).removeClass('highlight-row');
+            }
+            // enable hlt_rows_active
+            hlt_rows_active_id = src_elt.id;
+            $('#' + hlt_rows_active_id).addClass('highlight-row');
+
+            // toggle the rows
+            hlt_rows(ids);
+        }
+        function hlt_rows(ids) {
+            $('.answer-row').removeClass('highlight-row');
+            for (var idx in ids) {
+                // console.log('#answer-' + ids[idx]);
+                $('#answer-' + ids[idx]).addClass('highlight-row');
+            };
+        };
+    </script>
+    <style>
+        .qtable td p {
+            font-size: 1.2em;
+            line-height: 1.5em;
+        }
+    </style>
+
+</section>

@@ -1,0 +1,17 @@
+﻿@model WebApplication1.Models.Login
+@{
+    ViewBag.Title = "Login";
+}
+
+<h2>Login</h2>
+
+@using (@Html.BeginForm("LoginUser", "Login", FormMethod.Post))
+{
+
+    @Html.TextBoxFor(m => m.userName)
+    <br />
+
+    @Html.TextBoxFor(m => m.password)
+
+    @Html.ActionLink("Submit", "", null, new { @id = "submit" })
+}

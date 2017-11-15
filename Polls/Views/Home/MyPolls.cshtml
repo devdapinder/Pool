@@ -1,0 +1,46 @@
+﻿@model PagedList.IPagedList<Polls.Models.MyPolls>
+@using PagedList.Mvc;
+<link href="~/Content/PagedList.css" rel="stylesheet" type="text/css" />
+@{
+    ViewBag.Title = "MyPolls";
+}
+
+
+<section id="public-questions" class="container">
+    <div class='card list-group-card'>
+        <div class='card-block'>
+            <h2 class='card-title'>
+                My Polls
+            </h2>
+        </div>
+        <table class="table  table-striped">
+            <thead class="thead-default">
+                <tr>
+                    <th>
+                        Question
+                    </th>
+                    <th>
+                        Options
+                    </th>
+                </tr>
+            </thead>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+
+                        <a href="/Home/GetPollResult?pollId=@item.pollId">  @item.question </a>
+                    </td>
+                    <td></td>
+                </tr>
+
+            }
+
+        </table>
+
+        <br />
+        Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+        @Html.PagedListPager(Model, page => Url.Action("Index",
+    new { page }))
+    </div>
+</section>

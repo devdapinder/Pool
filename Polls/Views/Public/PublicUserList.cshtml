@@ -1,0 +1,43 @@
+﻿@model PagedList.IPagedList<Polls.Models.ViewPublicProfileResponse>
+@using PagedList.Mvc;
+<link href="~/Content/PagedList.css" rel="stylesheet" type="text/css" />
+
+@{
+	ViewBag.Title = "Public Users";
+}
+
+@Html.Partial("_CommonScript")
+<section id="public-questions" class="container">
+	<div class='card list-group-card' style="margin-top: 48px;">
+
+		<ul class='list-group-flush list-group' id="example">
+			@foreach (var item in Model)
+            {
+				<li class='list-group-item'>
+					<i class="fa fa-address-card-o" aria-hidden="true"></i>&nbsp;
+					@*<a href='@Url.Action("ViewProfile", "Public", new { userId = @item.userId })'>@item.firstName  @item.lastName</a>*@
+					<a onclick="SetProfileId('@item.userId','@string.Format("{0}-{1}", @item.firstName.Trim(), @item.lastName.Trim()).Replace(" ","-")')" href='javascript:void(0);'>@item.firstName  @item.lastName</a>
+					<div class="pull-right" style="padding-right:15px">
+						@if (item.gender.ToUpper() == "M")
+						{
+							<span class="label label-success" style="margin-right: 10px;">Male</span>
+						}
+						else if (item.gender.ToUpper() == "F")
+						{
+							<span class="label label-success" style="margin-right: 10px;">Female</span>
+						}
+						else
+						{
+							<span class="label label-success" style="margin-right: 10px;">@item.gender</span>
+						}
+					</div>
+
+				</li>
+            }
+
+		</ul>
+		<br />
+		Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+		@Html.PagedListPager(Model, page => Url.Action("Index", "PublicUser", new { page }))
+	</div>
+</section>
