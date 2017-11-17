@@ -14,7 +14,7 @@ function SetPollId(pollId,question)
 				if (data.success="true")
 					{
 		var url='@Url.Action("GetPollResult", "Public", new { question = "question" })'
-			window.location =url.replace("question", question);
+			window.location =url.replace("question", question.toLowerCase().replace("?",""));
 					}
 				}
 		});
@@ -36,7 +36,7 @@ function SetPollId(pollId,question)
             if (data.success="true")
                 {
 	var url='@Url.Action("ViewProfile", "Public", new { userName = "userName" })'
-		window.location =url.replace("userName", userName);
+		window.location =url.replace("userName", userName.toLowerCase());
                 }
             }
     });
